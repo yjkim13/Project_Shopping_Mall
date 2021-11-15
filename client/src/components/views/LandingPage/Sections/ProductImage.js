@@ -11,8 +11,8 @@ function ProductImage(props) {
 
             props.detail.images.map(item => {
                 images.push({
-                    original: `https://judetravel.herokuapp.com/uploads/${item}`,
-                    thumbnail: `https://judetravel.herokuapp.com/uploads/${item}`
+                    original: `https://judetravels.herokuapp.com/uploads/${item}`,
+                    thumbnail: `https://judetravels.herokuapp.com/uploads/${item}`
                 })
 
             })

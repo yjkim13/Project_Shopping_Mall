@@ -6,7 +6,7 @@ function UserCardBlock(props) {
     const renderCartImage = (images) => {
         if (images.length > 0) {
             let image = images[0]
-            return `https://judetravel.herokuapp.com/uploads/${image}`
+            return `https://judetravels.herokuapp.com/uploads/${image}`
         }
 
     }
