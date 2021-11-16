@@ -67,9 +67,9 @@ function LandingPage() {
 
     const renderCards = Products.map((product, index) => {
         let price = ""
-        if(product.remaining === 0){
+        if (product.remaining === 0) {
             price = "Sold Out"
-        } else{
+        } else {
             price = `$${product.price}`
         }
 
@@ -77,10 +77,10 @@ function LandingPage() {
             <Card
                 cover={<a href={`/product/${product._id}`}><ImageSlider images={product.images} /></a>}
             >
-                    <Meta
-                        title={product.title}
-                        description={price}
-                    />
+                <Meta
+                    title={product.title}
+                    description={price}
+                />
 
             </Card>
         </Col>
@@ -149,55 +149,54 @@ function LandingPage() {
 
 
     return (
-        <div style={{ width: '75%', margin: '3rem auto' }}>
-        <div style={{alignItems:'center'}}>
-            <img style={{display: "block" ,margin: "0 auto", width: '100%',height:'350px'
+        <><div>
+            <img style={{
+                display: "block", margin: "0 auto", width: '100%', height: '300px'
             }}
-            src ={`https://judetravels.herokuapp.com/uploads/hello.jpg`}/>
+                src={`https://judetravels.herokuapp.com/uploads/hello.jpg`} />
         </div>
-        <br/>
-            <div style={{ textAlign: 'center' }}>
-                <h2><CarTwoTone twoToneColor="#ff0000" />이제 모두 여행을 떠나요!<RocketTwoTone /></h2>
-            </div>
-            {/* Filter */}
-            <Row gutter={[16, 16]}>
-                <Col lg={12} xs={24}>
-                    {/* CheckBox */}
-                    <CheckBox list={continents} handleFilters={filters => handleFilters(filters, "continents")} />
-                </Col>
-                <Col lg={12} xs={24}>
-                    {/* RadioBox */}
-                    <RadioBox list={price} handleFilters={filters => handleFilters(filters, "price")} />
-                </Col>
-
-            </Row>
-
-            {/* Search */}
-            <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '1rem auto' }}>
-                <SearchFeature
-                    refreshFunction={updateSearchTerm}
-                />
-
-            </div>
-
-            {/* Cards */}
-            <Row gutter={[16, 16]} >
-                {renderCards}
-
-            </Row>
-
-
-
             <br />
-
-            {PostSize >= Limit &&
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <button onClick={loadMoreHandler}>더보기</button>
+            <div style={{ width: '75%', margin: '3rem auto' }}>
+                <div style={{ textAlign: 'center' }}>
+                    <h2><CarTwoTone twoToneColor="#ff0000" />이제 모두 여행을 떠나요!<RocketTwoTone /></h2>
                 </div>
-            }
+                {/* Filter */}
+                <Row gutter={[16, 16]}>
+                    <Col lg={12} xs={24}>
+                        {/* CheckBox */}
+                        <CheckBox list={continents} handleFilters={filters => handleFilters(filters, "continents")} />
+                    </Col>
+                    <Col lg={12} xs={24}>
+                        {/* RadioBox */}
+                        <RadioBox list={price} handleFilters={filters => handleFilters(filters, "price")} />
+                    </Col>
+
+                </Row>
+
+                {/* Search */}
+                <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '1rem auto' }}>
+                    <SearchFeature
+                        refreshFunction={updateSearchTerm} />
+
+                </div>
+
+                {/* Cards */}
+                <Row gutter={[16, 16]}>
+                    {renderCards}
+
+                </Row>
 
 
-        </div>
+
+                <br />
+
+                {PostSize >= Limit &&
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <button onClick={loadMoreHandler}>더보기</button>
+                    </div>}
+
+
+            </div></>
     )
 }
 
