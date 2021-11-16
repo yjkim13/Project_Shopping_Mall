@@ -38,6 +38,9 @@ function RightMenu(props) {
   } else if (user.userData && user.userData.role) {
     return (
       <Menu mode={props.mode}>
+        <Menu.Item key="name" style={{ marginRight: -5 }}>
+          {user.userData.name}님 환영합니다.
+        </Menu.Item>
         <Menu.Item key="history" style={{ marginRight: -5 }}>
           <a href="/history">History</a>
         </Menu.Item>
@@ -70,6 +73,9 @@ function RightMenu(props) {
   } else {
     return (
       <Menu mode={props.mode}>
+        <Menu.Item key="name" style={{ marginRight: -5 }}>
+          {user.userData.name}님 환영합니다.
+        </Menu.Item>
         <Menu.Item key="history" style={{ marginRight: -5 }}>
           <a href="/history">History</a>
         </Menu.Item>
