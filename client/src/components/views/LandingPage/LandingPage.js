@@ -153,7 +153,7 @@ function LandingPage() {
         <div style={{alignItems:'center'}}>
             <img style={{display: "block" ,margin: "0 auto", width: '100%',height:'350px'
             }}
-            src ={`http://localhost:5000/uploads/hello.jpg`}/>
+            src ={`https://judetravels.herokuapp.com/uploads/hello.jpg`}/>
         </div>
         <br/>
             <div style={{ textAlign: 'center' }}>
