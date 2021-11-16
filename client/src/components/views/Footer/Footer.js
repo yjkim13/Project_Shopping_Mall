@@ -15,7 +15,7 @@ function Footer() {
     >
       <p>
         {" "}
-        Kim's Coding <SmileOutlined />
+        Jude_Travel <SmileOutlined />
       </p>
     </div>
   );
