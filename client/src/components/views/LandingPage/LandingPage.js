@@ -150,8 +150,14 @@ function LandingPage() {
 
     return (
         <div style={{ width: '75%', margin: '3rem auto' }}>
+        <div style={{alignItems:'center'}}>
+            <img style={{display: "block" ,margin: "0 auto", width: '100%',height:'350px'
+            }}
+            src ={`http://localhost:5000/uploads/hello.jpg`}/>
+        </div>
+        <br/>
             <div style={{ textAlign: 'center' }}>
-                <h2><CarTwoTone spin twoToneColor="#ff0000" />이제 모두 여행을 떠나요!<RocketTwoTone spin /></h2>
+                <h2><CarTwoTone twoToneColor="#ff0000" />이제 모두 여행을 떠나요!<RocketTwoTone /></h2>
             </div>
             {/* Filter */}
             <Row gutter={[16, 16]}>
