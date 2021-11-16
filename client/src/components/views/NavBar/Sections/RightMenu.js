@@ -50,9 +50,9 @@ function RightMenu(props) {
               <a href="/product/products/list">Update & Delete</a>
             </Menu.Item>
           </MenuItemGroup>
-          <MenuItemGroup title="Members">
+          {/* <MenuItemGroup title="Members">
             <Menu.Item key="setting:3">회원관리</Menu.Item>
-          </MenuItemGroup>
+          </MenuItemGroup> */}
         </SubMenu>
         <Menu.Item key="cart" style={{ marginBottom: -5 }}>
           <Badge count={user.userData && user.userData.cart.length}>
