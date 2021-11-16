@@ -34,7 +34,7 @@ function DetailProductPage(props) {
 
                 <Col lg={12} sm={24}>
                     {/*Product Info*/}
-                    <ProductInfo detail={Product} />
+                    <ProductInfo detail={Product} auth={props}/>
                 </Col>
 
             </Row>
