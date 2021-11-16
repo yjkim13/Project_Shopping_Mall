@@ -7,11 +7,15 @@ function ProductInfo(props) {
     const dispatch = useDispatch()
 
     const clickHandler = () => {
-        //필요한 정보를 Cart 필드에 넣어준다.
-        if(props.detail.remaining === 0){
+
+        if (props.detail.remaining === 0) {
             alert("상품의 재고가 없습니다.")
-        }else{
+        } else if (props.auth.user.userData.isAuth === false) {
+            alert("로그인이 필요합니다.")
+        } else {
+            //필요한 정보를 Cart 필드에 넣어준다.
             dispatch(addToCart(props.detail._id))
+            alert("카트에 상품을 담았습니다.")
         }
     }
 
