@@ -1,5 +1,9 @@
 # Shopping Project
  -------
+#### 배포
+해당 웹 사이트는 heroku를 통해 배로하였습니다.
+* 링크 : <https://judetravels.herokuapp.com>
+ 
 #### 사용스킬
 * React
 * NodeJS
