@@ -1,10 +1,10 @@
 # Shopping Project
  -------
-#### 배포
+#### 📣 배포
 해당 웹 사이트는 heroku를 통해 배포하였습니다.
 * 링크 : <https://judetravels.herokuapp.com>
  
-#### 사용스킬
+#### 🛠 사용스킬
 * React
 * NodeJS
 * MongoDB
@@ -21,5 +21,5 @@
 
 ### 기능 설명
 ------
-#### [Manager , 홈페이지 관리자]
+#### 🖥 [Manager , 홈페이지 관리자]
 ------
