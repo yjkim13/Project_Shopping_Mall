@@ -1,5 +1,8 @@
 # Shopping Project
  -------
+ ## 프로젝트 기획동기
+ ----
+ 
 ### 📣 배포
 해당 웹 사이트는 heroku를 통해 배포하였습니다.
 * 링크 : <https://judetravels.herokuapp.com>
