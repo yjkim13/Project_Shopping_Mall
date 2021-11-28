@@ -28,49 +28,61 @@
  * 웹 사이트에 회원가입을 할 수 있는 기능
 ![RegisterPage](https://user-images.githubusercontent.com/36403024/143734537-4d790cc1-815e-4a7a-9cbd-3d95572d5340.PNG)
 
+
+##### 2. Read
+* 상품을 클릭했을 때, 상품의 상세페이지를 출력하는 기능
+![DetailPage](https://user-images.githubusercontent.com/36403024/143735039-3878b8f5-66a6-4121-be14-365059dbe2b4.PNG)
+
  
-##### 2. Login/Logout
+##### 3. Login/Logout
  * 회원가입을 통해 만든 계정을 통해 Login & Logout 할 수있는 기능
+ ![LoginPage](https://user-images.githubusercontent.com/36403024/143734786-ab6e6090-1da0-464b-bbc9-3b004cda5d6e.PNG)
  
-##### 3. Cart
+##### 4. Cart
  * 상품을 직접 Cart에 담을 수 있는 기능
+ ![AddToCart](https://user-images.githubusercontent.com/36403024/143734775-8c6a720f-2d40-473c-b025-de5f6e8f0bfe.PNG)
  
-##### 4. Delete
+##### 5. Delete
  * Cart에 담은 상품을 삭제 할 수 있는 기능
  
-##### 5. Order
+##### 6. Order
  * Cart에 담은 상품을 주문할 수 있는 기능( Paypal 사용)
+ ![Payment](https://user-images.githubusercontent.com/36403024/143734787-0ca99ae5-8fb8-4d53-a0df-1521d7b699d6.PNG)
  
-##### 6. History
+##### 7. History
  * 주문한 상품에 대한 정보를 확인 할 수 있는 기능
+ ![HistoryPage](https://user-images.githubusercontent.com/36403024/143734784-8c41943b-eb10-4974-a607-79c5d7dec595.PNG)
 
-##### 7. Search
+##### 8. Search
 * 상품의 이름을 입력하면 상품을 검색할 수 있는 기능
+![Search](https://user-images.githubusercontent.com/36403024/143734886-f1f9d8d6-5baa-4f55-82f1-b3fbd059fb49.PNG)
 
-##### 8. Select
+##### 9. Select
 * 지역별로 선택하여 상품을 확인 할 수 있는 기능
 * 가격별로 선택하여 상품을 확인 할 수 있는 기능 
+![Select](https://user-images.githubusercontent.com/36403024/143734888-3dd38db9-9567-4107-b26a-109e7530b31f.PNG)
  
 #### 🖥 [Manager , 홈페이지 관리자]
 ------
 ##### 1. Create
   * 상품 사진을 직접 업로드 할 수 있는 기능
   * 상품의 이름, 설명, 가격, 지역을 직접 입력 및 선택하여 추가하는 기능   
+  ![UploadPage](https://user-images.githubusercontent.com/36403024/143734988-2708f730-fa12-439a-a142-8653e3689cb1.PNG)
 
-##### 2. Read
-* 상품을 클릭했을 때, 상품의 상세페이지를 출력하는 기능
-
-##### 3. Update
+##### 2. Update
 * 등록된 상품의 사진을 수정할 수 있는 기능
 * 등록된 상품의 이름을 수정할 수 있는 기능
 * 등록된 상품의 가격을 수정할 수 있는 기능
 * 등록된 상품의 설명을 수정할 수 있는 기능
 * 등록된 상품의 지역을 수정할 수 있는 기능
+![UpdatePage](https://user-images.githubusercontent.com/36403024/143734986-a86446a2-fd88-4e83-aa11-57d3a7b06a4a.PNG)
 
-##### 4. Delete
+##### 3. Delete
 * 등록된 상품을 삭제할수 있는 기능
+![ManagePage](https://user-images.githubusercontent.com/36403024/143735008-1d329772-61c3-4cba-a83d-e564b4abf708.PNG)
 
-##### 5. Search
+
+##### 4. Search
 * 상품의 이름을 입력하면 상품을 검색할 수 있는 기능
 
 ##### 6. Select
