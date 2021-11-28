@@ -11,7 +11,6 @@
 * Redux
 
 ## ✈ < Jude_Travel >
-<img src="C:\Users\Hobbit\Desktop/LandingPage.jpg" width="40%" height="30%" title="10px" alt="LandingPage"></img>
 -------
 > Jude_Travel은 여행 상품을 판매하는 웹 사이트입니다.   
 > 웹 사이트의 기능은 크게 방문자, 회원, 관리자에 따라 나뉘었습니다.
