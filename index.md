@@ -45,6 +45,7 @@
  
 ##### 5. Delete
  * Cart에 담은 상품을 삭제 할 수 있는 기능
+  ![CartPage](https://user-images.githubusercontent.com/36403024/143734780-e1b572f8-0779-418b-9452-c253b01574a2.PNG)
  
 ##### 6. Order
  * Cart에 담은 상품을 주문할 수 있는 기능( Paypal 사용)
