@@ -29,14 +29,15 @@
 ![RegisterPage](https://user-images.githubusercontent.com/36403024/143734537-4d790cc1-815e-4a7a-9cbd-3d95572d5340.PNG)
 
 
-##### 2. Read
+##### 2. Login/Logout
+ * 회원가입을 통해 만든 계정을 통해 Login & Logout 할 수있는 기능
+ ![LoginPage](https://user-images.githubusercontent.com/36403024/143734786-ab6e6090-1da0-464b-bbc9-3b004cda5d6e.PNG)
+ 
+ 
+##### 3. Read
 * 상품을 클릭했을 때, 상품의 상세페이지를 출력하는 기능
 ![DetailPage](https://user-images.githubusercontent.com/36403024/143735039-3878b8f5-66a6-4121-be14-365059dbe2b4.PNG)
 
- 
-##### 3. Login/Logout
- * 회원가입을 통해 만든 계정을 통해 Login & Logout 할 수있는 기능
- ![LoginPage](https://user-images.githubusercontent.com/36403024/143734786-ab6e6090-1da0-464b-bbc9-3b004cda5d6e.PNG)
  
 ##### 4. Cart
  * 상품을 직접 Cart에 담을 수 있는 기능
