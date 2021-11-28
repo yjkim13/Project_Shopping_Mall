@@ -26,7 +26,7 @@
 -----
 ##### 1. Register
  * 웹 사이트에 회원가입을 할 수 있는 기능
- * <img src="[/path/to/img.jpg](https://user-images.githubusercontent.com/36403024/143734537-4d790cc1-815e-4a7a-9cbd-3d95572d5340.PNG)" width="450px" height="300px"  alt="RubberDuck"></img><br/>
+ * <img src="(https://user-images.githubusercontent.com/36403024/143734537-4d790cc1-815e-4a7a-9cbd-3d95572d5340.PNG)" width="450px" height="300px"  alt="RubberDuck"></img><br/>
 
  
 ##### 2. Login/Logout
